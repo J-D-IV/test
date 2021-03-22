@@ -1,0 +1,157 @@
+body {
+  margin-top: 40px;
+  background-color: whitesmoke;
+}
+
+#shopping {
+  background-color: #EAEAEA;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+th {
+  padding: 16px;
+  font-family: Lucida Console, Monaco, monospace;
+}
+
+h2 {
+  text-align: center;
+  font-family: Lucida Console, Monaco, monospace;
+}
+
+p,td {
+  text-align: center;
+  font-family: Lucida Console, Monaco, monospace;
+}
+
+.add-to-cart {
+  width: 100px;
+  border-color:#0062cc;
+  background-color: cornflowerblue;
+  border-radius: 6px;
+  font-family: Lucida Console, Monaco, monospace;
+}
+
+.add-to-cart:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+#cartTable {
+  padding-bottom: 16px;
+}
+
+.total {
+  color: cornflowerblue;
+}
+
+#cartTable > tbody {
+  padding: 12px;
+  margin: 8px;
+}
+
+.tablink {
+  background-color: cornflowerblue;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 33%;
+  font-family: Lucida Console, Monaco, monospace;
+  margin-bottom: 30px;
+}
+
+.tablink>a {
+  text-decoration: none; 
+  color: white;   
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color: #0069d9;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+#fcf-button {
+  width: 160px;
+  border-color:cornflowerblue;
+  background-color: cornflowerblue;
+  border-radius: 6px;
+  font-family: Lucida Console, Monaco, monospace;
+  margin-top: 8px;
+  padding: 4px;
+}
+
+#fcf-button:hover {
+  background-color: #0069d9;
+}
+
+.fcf-body {
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+  background-color: #EAEAEA;
+  border-radius: 6px;
+  font-family: Lucida Console, Monaco, monospace;
+}
+
+.fcf-form-group {
+  float: center;
+  padding: 8px 16px 8px 16px;
+}
+
+#fcf-form {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+.fcf-form-control {
+  width: 100%;
+}
+
+.back-button{
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px 32px;
+}
+
+#fcf-button>a {
+  text-decoration: none;
+}
+
+.back-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.previous {
+  background-color: grey;
+  color: black;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.prod-detail {
+  margin: auto;
+  width: 60%;
+  border: 5px solid cornflowerblue;
+  padding: 10px;
+}
+
+.prod-detail > img {
+  margin-left: 38.5%;
+}
